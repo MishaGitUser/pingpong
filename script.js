@@ -4,8 +4,8 @@ const ctx = canvas.getContext('2d');
 canvas.width = window.innerWidth * 0.9;
 canvas.height = window.innerHeight * 0.9;
 
-const paddleWidth = 100; // Ширина изображения ракетки
-const paddleHeight = 200; // Высота изображения ракетки
+const paddleWidth = 30; // Ширина изображения ракетки
+const paddleHeight = 30; // Высота изображения ракетки
 const ballSize = 10; // Радиус мяча
 const paddleSpeed = 5;
 const ballSpeed = 3;
